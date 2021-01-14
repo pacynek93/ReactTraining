@@ -10,6 +10,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -49,10 +50,7 @@
   "lint-staged": {
     "*.js": [
       "prettier --config .prettierrc --write",
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ]
   }
-  
 }
-

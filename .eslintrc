@@ -5,9 +5,14 @@
       "prettier/react"
     ],
     "env": {
-      "node": 1
+      "jest": true,
+      "node": true
+    },
+    "globals": {
+      "document": true
     },
     "rules": {
+      "import/no-unresolved" : 1,
       "react/jsx-filename-extension": [
         1,
         {
